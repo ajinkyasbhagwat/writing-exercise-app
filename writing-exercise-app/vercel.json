@@ -1,5 +1,5 @@
 {
     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-    "buildCommand": "CI=false craco build",
+    "buildCommand": "npm install && CI=false craco build",
     "outputDirectory": "build"
   }
